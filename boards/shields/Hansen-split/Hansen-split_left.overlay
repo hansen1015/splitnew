@@ -1,4 +1,4 @@
-#include "Hansen-split.dtsi" // Notice that the main dtsi files are included in the overlay.
+#include "Hansen-split.dtsi"
 
 &kscan0 {
     col-gpios
