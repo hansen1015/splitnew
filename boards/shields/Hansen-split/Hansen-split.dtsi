@@ -24,13 +24,13 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)                 RC(2,6) RC(2,7) 
 
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
-        diode-direction = "col2row";
+        diode-direction = "row2col";
         wakeup-source;
 
         row-gpios
-            = <&gpio0 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row A from the schematic file
-            , <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row B from the schematic file
-            , <&gpio1 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            = <&gpio0 9 (GPIO_ACTIVE_HIGH)> // Row A from the schematic file
+            , <&gpio0 10 (GPIO_ACTIVE_HIGH)> // Row B from the schematic file
+            , <&gpio1 11 (GPIO_ACTIVE_HIGH)>
             ;
 
     };
