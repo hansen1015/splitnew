@@ -14,5 +14,3 @@
         , <&gpio0 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         ;
 };
-l4hhjk
-lhhjk
