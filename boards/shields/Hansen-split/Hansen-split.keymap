@@ -17,9 +17,9 @@
         };
         LOWER {
             bindings = <
-    &BT_SEL 0     &BT_SEL 1     &BT_SEL 2   &BT_SEL 3  &BT_SEL 4 &bt BT_CLR                 &kp N3      &kp K_CUT      &kp N0     &kp N7    &kp N8    &kp N9
-    &kp C_VOL_UP  &kp C_BRI_UP  &kp C_NEXT  &kp F      &kp G     &kp N1                      &mo RAISE   &kp K_PASTE    &kp K_REDO   &kp N4    &kp N5    &kp N6  
-    &kp C_VOL_DN  &kp C_BRI_DN  &kp C_PREV  &kp V      &kp B     &kp N2                      &mo LOWER   &kp K_COPY     &kp K_UNDO   &kp N1    &kp N2    &kp N3
+    &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4 &bt bt BT_CLR                 &kp N3      &kp K_CUT      &kp N0     &kp N7    &kp N8    &kp N9
+    &kp C_VOL_UP  &kp C_BRI_UP   &kp C_NEXT    &kp F         &kp G        &kp N1                      &mo RAISE   &kp K_PASTE    &kp K_REDO   &kp N4    &kp N5    &kp N6  
+    &kp C_VOL_DN  &kp C_BRI_DN   &kp C_PREV    &kp V         &kp B        &kp N2                      &mo LOWER   &kp K_COPY     &kp K_UNDO   &kp N1    &kp N2    &kp N3
             >;
         };
         RAISE {
