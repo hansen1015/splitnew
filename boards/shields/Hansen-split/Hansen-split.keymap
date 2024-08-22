@@ -26,8 +26,8 @@
         RAISE {
             bindings = <
     &kp EXCL    &kp AT    &kp HASH    &kp DLLR     &kp PRCNT     &kp F5                      &kp N3      &kp CARET       &kp AMPS     &kp ASTRK     &kp LPAR    &kp RPAR
-    &kp EQUAL   &kp PLUS    &kp MINUS    &kp UNDER    &kp SQT     &kp UP                      &mo LOWER      &kp H       &kp J     &kp K     &kp L    &kp BSLH  
-    &kp LBKT    &kp RBKT    &kp TILDE    &kp LEFT     &kp RIGHT     &kp DOWN                      &mo RAISE      &kp N       &kp M     &kp COMMA &kp DOT  &kp FSLH
+    &kp EQUAL   &kp PLUS  &kp MINUS   &kp UNDER    &kp SQT       &kp UP                      &mo LOWER      &kp H       &kp J     &kp K     &kp L    &kp BSLH  
+    &kp LBKT    &kp RBKT  &kp TILDE   &kp LEFT     &kp RIGHT     &kp DOWN                    &mo RAISE      &kp N       &kp M     &kp COMMA &kp DOT  &kp FSLH
             >;
         };
     };
