@@ -13,6 +13,7 @@
         delll {
             bindings = <&kp DEL>;
             key-positions = <29 18>;
+            layers = <0>;
         };
     };
 
