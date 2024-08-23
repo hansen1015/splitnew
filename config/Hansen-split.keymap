@@ -7,6 +7,15 @@
 #define RAISE   2
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        delll {
+            bindings = <&kp DEL>;
+            key-positions = <29 18>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
